@@ -1,5 +1,7 @@
 import logo from "./assets/ru.svg";
-import artistList from "./assets/components/artistList";
+import List from "./assets/components/artistList";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 import "./App.css";
 
 function App() {
@@ -10,6 +12,7 @@ function App() {
       </header>
       <div style={{ display: "flex" }}>
         <input />
+        <List />
       </div>
     </div>
   );
