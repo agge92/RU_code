@@ -1,5 +1,7 @@
 import logo from "./assets/ru.svg";
-import List from "./assets/components/artistList";
+import List from "./components/artistList";
+import Search from "./components/search";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./App.css";
@@ -10,8 +12,8 @@ function App() {
       <header className="App-header" style={{ height: "10rem" }}>
         <img src={logo} className="App-logo" alt="logo" />
       </header>
-      <div style={{ display: "flex" }}>
-        <input />
+      <div style={{ display: "flex", align: "center" }}>
+        <Search />
         <List />
       </div>
     </div>
